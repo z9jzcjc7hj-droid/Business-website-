@@ -15,36 +15,26 @@ export default function Hero() {
       id="home"
       className="relative flex min-h-[100svh] items-center overflow-hidden bg-brand-black pt-24"
     >
-      {/* Background layers — replace/augment with a real photo by adding an
-          <img> here (e.g. a detailed vehicle exterior shot) behind the overlay. */}
+      {/* Background layers. To swap the photo, replace /public/images/hero-bg.jpg
+          with a higher-resolution shot (a clean exterior or in-progress detail
+          shot works well) — the filename and layering below stay the same. */}
       <div className="absolute inset-0" aria-hidden="true">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_#1a1120_0%,_#050506_65%)]" />
+        <img
+          src="/images/hero-bg.jpg"
+          alt=""
+          className="h-full w-full object-cover object-center"
+        />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(26,17,32,0.4)_0%,_rgba(5,5,6,0.75)_65%)]" />
         <div className="absolute -left-1/4 top-1/3 h-[500px] w-[500px] rounded-full bg-brand-purple-600/25 blur-[120px]" />
         <div className="absolute -right-1/4 top-0 h-[400px] w-[400px] rounded-full bg-brand-purple-500/20 blur-[110px]" />
         {/* Faint grid pattern for a technical/automotive feel */}
-        <svg className="absolute inset-0 h-full w-full opacity-[0.07]" xmlns="http://www.w3.org/2000/svg">
+        <svg className="absolute inset-0 h-full w-full opacity-[0.06]" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
               <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#c084fc" strokeWidth="1" />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
-        {/* Abstract automotive line-art silhouette */}
-        <svg
-          className="absolute bottom-0 right-0 w-[70%] max-w-3xl opacity-[0.14] text-brand-purple-300 animate-float"
-          viewBox="0 0 800 300"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M40 210 C 60 150, 140 120, 220 118 C 260 90, 340 70, 420 78 C 500 86, 560 110, 610 118 C 680 120, 740 150, 760 210 L 760 220 L 40 220 Z"
-            stroke="currentColor"
-            strokeWidth="2.5"
-          />
-          <circle cx="200" cy="220" r="34" stroke="currentColor" strokeWidth="2.5" />
-          <circle cx="600" cy="220" r="34" stroke="currentColor" strokeWidth="2.5" />
-          <path d="M250 130 L 300 90 L 480 90 L 540 130" stroke="currentColor" strokeWidth="2" />
         </svg>
         <div className="absolute inset-0 bg-hero-gradient" />
       </div>

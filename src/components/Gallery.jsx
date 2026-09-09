@@ -19,8 +19,8 @@ export default function Gallery() {
           <p className="section-eyebrow">Real Results</p>
           <h2 className="section-heading">Before &amp; After Gallery</h2>
           <p className="section-subheading mx-auto">
-            A look at the kind of transformation we deliver. The images below are placeholders —
-            this section is ready to display real project photos.
+            A look at real vehicles we&rsquo;ve worked on around Cincinnati. A few slots below are
+            still placeholders while we build out matching before shots.
           </p>
         </Reveal>
 

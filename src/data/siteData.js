@@ -217,8 +217,18 @@ export const whyChooseUs = [
 // once available, e.g. "/images/gallery/job1-before.jpg". Keep the same array
 // structure so the Gallery component keeps working without code changes.
 export const galleryItems = [
-  { id: 1, label: 'Interior Deep Clean', beforeImg: null, afterImg: null },
-  { id: 2, label: 'Exterior Paint Correction', beforeImg: null, afterImg: null },
+  {
+    id: 1,
+    label: 'BMW M3 — Exterior Detail',
+    beforeImg: null,
+    afterImg: '/images/gallery/bmw-m3-exterior-detail.jpg',
+  },
+  {
+    id: 2,
+    label: 'BMW 3 Series — Exterior Wash',
+    beforeImg: null,
+    afterImg: '/images/gallery/bmw-3-series-exterior-wash.jpg',
+  },
   { id: 3, label: 'Full Detail Package', beforeImg: null, afterImg: null },
   { id: 4, label: 'Ceramic Coating Finish', beforeImg: null, afterImg: null },
 ];
