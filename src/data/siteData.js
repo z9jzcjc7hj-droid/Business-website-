@@ -13,8 +13,8 @@ export const business = {
   serviceRadius: '50 miles',
 
   // --- REPLACE THESE PLACEHOLDERS WITH YOUR REAL BUSINESS INFO ---
-  phone: '[PHONE NUMBER]',
-  phoneHref: 'tel:+10000000000', // update with real number, e.g. tel:+15135551234
+  phone: '(513) 808-0883',
+  phoneHref: 'tel:+15138080883',
   email: '[EMAIL ADDRESS]',
   emailHref: 'mailto:info@rndetailingllc.com', // update with real email
   address: '[BUSINESS ADDRESS] — Cincinnati, OH', // or "Mobile service — no storefront" if applicable
