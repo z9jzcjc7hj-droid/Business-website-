@@ -21,7 +21,7 @@ export const business = {
   address: 'Mobile service — Cincinnati, OH',
   facebookUrl: 'https://www.facebook.com/r&ndetailing',
   instagramUrl: 'https://www.instagram.com/r_n_detailing/',
-  tiktokUrl: '#', // add your TikTok URL here once live
+  tiktokUrl: 'https://www.tiktok.com/@r_ndetailing513',
   googleBusinessUrl: '#', // add your Google Business Profile link here once live
   // -----------------------------------------------------------------
 };
