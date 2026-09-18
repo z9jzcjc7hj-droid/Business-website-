@@ -15,13 +15,14 @@ export const business = {
   // --- REPLACE THESE PLACEHOLDERS WITH YOUR REAL BUSINESS INFO ---
   phone: '(513) 808-0883',
   phoneHref: 'tel:+15138080883',
-  email: 'R.nenterprise1964@gmail.com',
-  emailHref: 'mailto:R.nenterprise1964@gmail.com',
-  address: '[BUSINESS ADDRESS] — Cincinnati, OH', // or "Mobile service — no storefront" if applicable
-  facebookUrl: '#', // e.g. https://facebook.com/rndetailingllc
-  instagramUrl: '#', // e.g. https://instagram.com/rndetailingllc
-  tiktokUrl: '#', // e.g. https://tiktok.com/@rndetailingllc
-  googleBusinessUrl: '#', // your Google Business Profile link
+  email: 'r.nenterprise1964@gmail.com',
+  emailHref: 'mailto:r.nenterprise1964@gmail.com',
+  // Mobile business — no public storefront
+  address: 'Mobile service — Cincinnati, OH',
+  facebookUrl: 'https://www.facebook.com/r&ndetailing',
+  instagramUrl: 'https://www.instagram.com/r_n_detailing/',
+  tiktokUrl: '#', // add your TikTok URL here once live
+  googleBusinessUrl: '#', // add your Google Business Profile link here once live
   // -----------------------------------------------------------------
 };
 
@@ -30,6 +31,7 @@ export const navLinks = [
   { label: 'Services', href: '#services' },
   { label: 'Packages', href: '#packages' },
   { label: 'Ceramic Coating', href: '#ceramic-coating' },
+  { label: 'Paint Correction', href: '#paint-correction' },
   { label: 'Gallery', href: '#gallery' },
   { label: 'Reviews', href: '#reviews' },
   { label: 'FAQ', href: '#faq' },
@@ -91,6 +93,27 @@ export const services = [
     description:
       'A long-lasting, hydrophobic ceramic layer that protects your paint, enhances gloss, and makes future washes faster and easier.',
     priceLabel: 'Starting at $750',
+  },
+  {
+    icon: 'Gem',
+    title: 'Paint Correction',
+    description:
+      'Machine polishing to remove swirl marks, light scratches, and oxidation — restoring clarity and depth to your paint before protection is applied.',
+    priceLabel: 'Custom Quote',
+  },
+  {
+    icon: 'Sun',
+    title: 'Headlight Restoration',
+    description:
+      'Removing yellowing, haze, and oxidation from cloudy headlight lenses to restore clarity, improve nighttime visibility, and refresh your vehicle&rsquo;s look.',
+    priceLabel: 'Custom Quote',
+  },
+  {
+    icon: 'CalendarCheck',
+    title: 'Maintenance Detailing',
+    description:
+      'Recurring upkeep details on a schedule that works for you — keeping your vehicle consistently clean, protected, and looking freshly detailed.',
+    priceLabel: 'Custom Quote',
   },
   {
     icon: 'Layers',
@@ -177,6 +200,29 @@ export const ceramicBenefits = [
     icon: 'Clock',
     title: 'Long-Lasting Results',
     description: 'Durable protection that outlasts traditional wax by months, not weeks.',
+  },
+];
+
+export const paintCorrectionBenefits = [
+  {
+    icon: 'Eye',
+    title: 'Swirl & Scratch Removal',
+    description: 'Machine polishing lifts light swirl marks, scratches, and water spots out of the clear coat.',
+  },
+  {
+    icon: 'Sparkles',
+    title: 'Restored Clarity & Depth',
+    description: 'Oxidized, dull paint is brought back to a clear, reflective finish that looks freshly painted.',
+  },
+  {
+    icon: 'ShieldCheck',
+    title: 'Ready for Protection',
+    description: 'A corrected surface is the ideal base for wax, sealant, or ceramic coating to properly bond.',
+  },
+  {
+    icon: 'Clock',
+    title: 'Lasting Results',
+    description: 'Proper correction — not just a quick buff — means the improvement holds up over time.',
   },
 ];
 
@@ -329,6 +375,9 @@ export const serviceInterestOptions = [
   'Interior Deep Clean',
   'Exterior Detail',
   'Ceramic Coating',
+  'Paint Correction',
+  'Headlight Restoration',
+  'Maintenance Detailing',
   'Pet Hair Removal',
   'Not sure — need recommendation',
 ];

@@ -5,13 +5,16 @@ import {
   PawPrint,
   ShieldCheck,
   Layers,
+  Gem,
+  Sun,
+  CalendarCheck,
   ArrowRight,
   Info,
 } from 'lucide-react';
 import Reveal from './Reveal.jsx';
 import { services, basicDetailPricing, addOns } from '../data/siteData.js';
 
-const icons = { Sparkles, Droplets, Car, PawPrint, ShieldCheck, Layers };
+const icons = { Sparkles, Droplets, Car, PawPrint, ShieldCheck, Layers, Gem, Sun, CalendarCheck };
 
 function scrollToQuote() {
   const target = document.querySelector('#quote');

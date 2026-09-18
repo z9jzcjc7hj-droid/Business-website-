@@ -4,6 +4,7 @@ import TrustBar from './components/TrustBar.jsx';
 import Services from './components/Services.jsx';
 import Packages from './components/Packages.jsx';
 import CeramicCoating from './components/CeramicCoating.jsx';
+import PaintCorrection from './components/PaintCorrection.jsx';
 import WhyChooseUs from './components/WhyChooseUs.jsx';
 import Gallery from './components/Gallery.jsx';
 import Reviews from './components/Reviews.jsx';
@@ -24,6 +25,7 @@ export default function App() {
         <Services />
         <Packages />
         <CeramicCoating />
+        <PaintCorrection />
         <WhyChooseUs />
         <Gallery />
         <Reviews />
