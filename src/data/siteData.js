@@ -15,8 +15,8 @@ export const business = {
   // --- REPLACE THESE PLACEHOLDERS WITH YOUR REAL BUSINESS INFO ---
   phone: '(513) 808-0883',
   phoneHref: 'tel:+15138080883',
-  email: '[EMAIL ADDRESS]',
-  emailHref: 'mailto:info@rndetailingllc.com', // update with real email
+  email: 'R.nenterprise1964@gmail.com',
+  emailHref: 'mailto:R.nenterprise1964@gmail.com',
   address: '[BUSINESS ADDRESS] — Cincinnati, OH', // or "Mobile service — no storefront" if applicable
   facebookUrl: '#', // e.g. https://facebook.com/rndetailingllc
   instagramUrl: '#', // e.g. https://instagram.com/rndetailingllc
